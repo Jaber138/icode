@@ -1,0 +1,372 @@
+/*=======   project name : icode  =================*/
+
+
+
+
+/*================================
+            TABLET LAYOUT :
+================================*/
+
+@media only screen and (min-width: 768px) and (max-width: 810px) {
+
+    .navbar-expand-lg {
+        padding: 10px 30px;
+    }
+
+    .bnr-overlay {
+        padding: 13% 0 12% 0;
+    }
+
+    .bnr-content h1 {
+        margin: 2% 1% 3% 1%;
+    }
+
+    .bnr-content h2 {
+        margin: 0 20% 5% 20%;
+    }
+
+    #about {
+        padding: 30px 0 30px 0;
+    }
+
+    .about-text p {
+        text-align: justify;
+    }
+
+    .serv-content {
+        display: block;
+        border-radius: 3px;
+        padding: 25px 9px 11px 20px;
+    }
+
+    .serv-text {
+        margin-left: 0;
+    }
+
+    .serv-img {
+        margin-bottom: 15px;
+    }
+
+    .serv-colum {
+        max-width: 33.333%;
+    }
+
+    #portfolio {
+        padding: 30px 0 30px 0;
+    }
+
+    .common-heading {
+        margin-bottom: 25px;
+        font-size: 1.8rem;
+    }
+
+    .gallery .photo {
+        padding: 8px 8px;
+    }
+
+    #blog {
+        padding: 40px 0;
+    }
+
+    .footer-left {
+        padding: 0 0 0 13%;
+    }
+}
+
+/*===========================
+        ipad-Pro :
+============================*/
+@media only screen and (min-width: 811px) and (max-width:1024px) {
+    .navbar-expand-lg {
+        padding: 10px 30px;
+    }
+
+    .bnr-overlay {
+        padding: 13% 0 11% 0;
+    }
+
+    .bnr-content h1 {
+        margin: 2% 5% 3% 5%;
+    }
+
+    .bnr-content h2 {
+        margin: 0 20% 5% 20%;
+    }
+
+    #banner .btn-primary {
+        margin-top: 36px;
+    }
+
+    #about {
+        padding: 60px 0 60px 0;
+    }
+
+    .about-text h3 {
+        margin-top: -11px;
+    }
+
+    .about-text p {
+        margin-bottom: 14px;
+    }
+
+    .serv-content {
+        padding: 32px 9px 19px 21px;
+    }
+
+    .serv-text {
+        margin-left: 15px;
+    }
+}
+
+
+
+/*================================
+        MOBILE LAYOUT :
+================================*/
+
+@media only screen and (max-width:574px) {
+    .navbar .navbar-logo {
+        font-size: 1.9rem;
+    }
+
+    .navbar-expand-lg {
+        padding: 10px 16px;
+    }
+
+    .navbar .navbar-brand {
+        font-size: 2rem;
+    }
+
+    .bnr-overlay {
+        padding: 26% 0 24% 0;
+        margin-top: 66px;
+    }
+
+    .bnr-content h1 {
+        font-size: 2rem;
+        margin: 2% 0% 6% 0%;
+    }
+
+    .bnr-content h2 {
+        margin: 0 10% 10% 10%;
+        font-size: 1.3rem;
+    }
+
+    #banner .btn-primary {
+        margin-top: 36px;
+    }
+
+    #about {
+        padding: 25px 0 55px 0;
+    }
+
+    .about-text h3 {
+        margin-top: 13px;
+        font-size: 1.4rem;
+    }
+
+    #services {
+        padding: 27px 0 20px 0;
+    }
+
+    .common-heading {
+        margin-bottom: 20px;
+        font-size: 1.7rem;
+    }
+
+    .serv-content {
+        display: block;
+        text-align: center;
+        border-radius: 3px;
+        padding: 40px 16px 30px 16px;
+    }
+
+    .serv-text {
+        margin-left: 0;
+        margin-top: 15px;
+    }
+
+    .serv-colum {
+        max-width: 95%;
+        margin: 0 auto;
+    }
+
+    .gallery .photo {
+        width: calc(100%/2);
+        padding: 6px 6px;
+    }
+
+    #portfolio {
+        padding: 30px 0 30px 0;
+    }
+
+    .employees,
+    .customer,
+    .design {
+        margin-bottom: 8px;
+        margin-top: 50px;
+    }
+
+    .counter {
+        padding-bottom: 30px;
+    }
+
+    #blog {
+        padding: 50px 5px 30px 5px;
+    }
+
+    #blog p {
+        margin-bottom: .3rem;
+    }
+
+    #blog .col-12 {
+        margin-bottom: 1.5rem;
+    }
+
+    .footer-left {
+        padding: 0 0 0 0;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .footer-right {
+        padding: 0 0 0 9%;
+    }
+
+    .footer-right img {
+        margin-right: 0;
+    }
+
+    .footer-right p {
+        margin-bottom: 0;
+    }
+
+    .footer-right {
+        border-left: none;
+        padding: 0 13% 0 11%;
+    }
+
+    .apply-content h3 {
+        margin-bottom: 28px;
+    }
+
+    .apply-content a {
+        margin-left: 0;
+    }
+
+    #application {
+        padding: 33px 0 50px 0;
+    }
+}
+
+
+
+
+
+/*==============================
+        Nexus 7 
+==============================*/
+
+@media only screen and (min-width:574px) and (max-width:767px) {
+    .navbar-expand-lg {
+        padding: 10px 30px;
+    }
+
+    .bnr-overlay {
+        padding: 18% 0 14% 0;
+        margin-top: 11%;
+    }
+
+    .bnr-content h1 {
+        margin: 2% 1% 4% 1%;
+    }
+
+    .bnr-content h2 {
+        margin: 0 18% 6% 18%;
+        font-size: 1.5rem;
+    }
+
+    #banner .btn-primary {
+        margin-top: 36px;
+    }
+
+    #about {
+        padding: 40px 0 55px 0;
+    }
+
+    .about-text h3 {
+        font-size: 1.5rem;
+    }
+
+    .about-text p {
+        text-align: justify;
+    }
+
+    .common-heading {
+        margin-bottom: 10px;
+    }
+
+    #services {
+        padding: 30px 0 20px 0
+    }
+
+    .serv-content {
+        border-radius: 3px;
+        padding: 51px 20px 28px 30px;
+    }
+
+    .serv-img {
+        margin-bottom: 15px;
+    }
+
+    .serv-colum {
+        max-width: 70%;
+        margin: 0 auto
+    }
+
+    #portfolio {
+        padding: 23px 0 30px 0;
+    }
+
+    .common-heading {
+        margin-bottom: 25px;
+        font-size: 1.7rem;
+    }
+
+    .gallery .photo {
+        padding: 6px 6px;
+    }
+
+    .counter-count {
+        font-size: 1.5rem;
+    }
+
+    #blog {
+        padding: 50px 30px;
+    }
+
+    #footer {
+        padding: 38px 0 0 0;
+    }
+
+    .footer-left {
+        padding: 0 0 0 5%;
+    }
+
+    .bottom-footer {
+        padding: 19px 0 0 0;
+    }
+}
+
+
+
+
+
+
+
+/*====================================================
+    FOR iPHONE OR OTHER THAT HAVE PIXEL RATIO 3
+====================================================*/
+
+@media only screen and (-webkit-min-device-pixel-ratio: 3),
+only screen and (min-device-pixel-ratio: 3) {}
